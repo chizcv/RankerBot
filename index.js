@@ -23,7 +23,7 @@ async function startApp() {
   await client.login();
   console.log("Sucessfully Logged In!");
 }
-startApp();
+
 
 app.get("/ranker", (req, res) => {
     const group = client.getGroup(groupId);
